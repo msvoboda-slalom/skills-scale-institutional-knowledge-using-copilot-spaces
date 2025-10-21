@@ -26,6 +26,8 @@ OctoAcme projects follow a structured lifecycle with five key phases:
 
 ## Core Roles & Personas
 
+OctoAcme projects involve multiple roles working together across the project lifecycle. See [Roles and Personas](octoacme-roles-and-personas.md) for detailed definitions.
+
 ### Project Manager (PM)
 - Coordinates delivery, schedules, risk management, and communications
 - Maintains project plans, timelines, and status reporting
@@ -38,16 +40,36 @@ OctoAcme projects follow a structured lifecycle with five key phases:
 - Makes data-driven prioritization decisions
 - **Communication**: Weekly PM alignment, roadmap updates, feature specs
 
+### Business Analyst (BA)
+- Gathers requirements, validates business rules, ensures alignment with business objectives
+- Accountable for requirements clarity and traceability
+- **Communication**: Requirements workshops, user story refinement
+
+### UX/UI Designer
+- Creates user experience designs, conducts user research, ensures usability
+- Accountable for user satisfaction and design quality
+- **Communication**: Design reviews, prototype sharing, handoff specifications
+
+### Technical Lead / Architect
+- Defines technical architecture, coding standards, guides technical decisions
+- Accountable for technical quality and system design
+- **Communication**: Architecture decision records, technical design reviews
+
 ### Developers
 - Implement features, collaborate on design and testability
 - Write and maintain tests and documentation
 - Participate in code reviews and estimation
 - **Communication**: Daily standups, PR descriptions, technical design docs
 
-### QA/Testing
-- Validate quality and acceptance criteria
-- Execute test plans and identify defects
-- Ensure features meet definition of done
+### Quality Assurance Lead
+- Defines test strategy, coordinates testing, verifies acceptance criteria
+- Accountable for quality standards and test coverage
+- **Communication**: Test plans, defect tracking, quality metrics
+
+### Support / Operations Lead
+- Manages deployments, monitors production, coordinates incident response
+- Accountable for system reliability and operational excellence
+- **Communication**: Deployment coordination, operational metrics, incident reports
 
 ### Stakeholders
 - Provide inputs, approvals, and business context
@@ -85,11 +107,12 @@ OctoAcme projects follow a structured lifecycle with five key phases:
 
 ## Key Artifacts
 
-- **Project Charter / One-pager**: Problem statement, goals, success metrics, stakeholders
+- **Project Charter / One-pager**: Problem statement, goals, success metrics, stakeholders → [Template](template-project-one-pager.md)
 - **Roadmap and Release Plan**: Timeline and milestone mapping
 - **Sprint/Iteration Backlog**: Prioritized work items with acceptance criteria
-- **Definition of Done**: Clear completion criteria for all work items
-- **Risk Register**: Tracked risks with mitigation plans
+- **Definition of Done**: Clear completion criteria for all work items → [Template](template-definition-of-done.md)
+- **Risk Register**: Tracked risks with mitigation plans → [Template](template-risk-register.md)
+- **Role Assignment & Handoff Checklist**: Clear ownership across project phases → [Checklist](checklist-role-assignment-and-handoffs.md)
 - **Retrospective Notes**: Learnings and action items for continuous improvement
 
 ## Process Documentation
@@ -109,6 +132,15 @@ Explore our detailed process guides below:
 
 ### Cross-cutting Concerns
 - [**Risk Management and Communication**](octoacme-risks-and-communication.md) - Risk identification, stakeholder communication, and escalation paths
+
+## Templates & Checklists
+
+Use these templates to implement OctoAcme processes in your projects:
+
+- [**Project One-Pager Template**](template-project-one-pager.md) - Comprehensive template for project initiation
+- [**Definition of Done Template**](template-definition-of-done.md) - Quality criteria and role-specific sign-offs
+- [**Risk Register Template**](template-risk-register.md) - Risk tracking with role-specific examples
+- [**Role Assignment & Handoff Checklist**](checklist-role-assignment-and-handoffs.md) - Ensure clear ownership and smooth handoffs across all project phases
 
 ## Getting Started
 
