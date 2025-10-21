@@ -7,17 +7,20 @@ Define the initial steps to validate and authorize work, align stakeholders, and
 Whenever a new project idea or feature proposal is ready to be explored.
 
 ## Goals
-- Confirm business need and measurable outcome
-- Identify stakeholders & champions
-- Define success criteria and initial timeline
-- Decide go/no-go for planning
+- Confirm business need and measurable outcome (*Product Manager*)
+- Identify stakeholders & champions (*Product Manager + Business Analyst*)
+- Define success criteria and initial timeline (*Product Manager + Project Manager*)
+- Decide go/no-go for planning (*Product Manager with stakeholder approval*)
 
 ## Minimum Deliverables
-- Project One-pager (Problem, Goal, Success Metrics)
-- Stakeholder list & communication plan
-- High-level timeline and key milestones
-- Initial risk list
-- Resource needs (team roles, rough effort estimate)
+
+| Deliverable | Owner | Collaborators |
+|------------|-------|---------------|
+| Project One-pager (Problem, Goal, Success Metrics) | Product Manager | Business Analyst |
+| Stakeholder list & communication plan | Project Manager | Product Manager |
+| High-level timeline and key milestones | Project Manager | Technical Lead (for effort sizing) |
+| Initial risk list | Project Manager | Technical Lead, Business Analyst |
+| Resource needs (team roles, rough effort estimate) | Project Manager | Technical Lead, Product Manager |
 
 ## Project One-pager Template
 - Project name:
@@ -30,11 +33,16 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - Proposed team / roles:
 
 ## Initiation Checklist
-- [ ] One-pager completed and reviewed by Product Lead
-- [ ] Sponsor / Stakeholder alignment (email or meeting)
-- [ ] Decision: Approve to move into planning?
-- [ ] Create repo or project board skeleton
-- [ ] Add initial artifacts to repo (docs/ or .copilot/)
+- [ ] One-pager completed and reviewed by Product Lead (*Owner: Product Manager*)
+- [ ] Business requirements gathered and documented (*Owner: Business Analyst*)
+- [ ] Sponsor / Stakeholder alignment (email or meeting) (*Owner: Product Manager*)
+- [ ] Technical feasibility assessment (*Owner: Technical Lead*)
+- [ ] Initial UX research or design direction identified (*Owner: UX/UI Designer, if applicable*)
+- [ ] Decision: Approve to move into planning? (*Decision maker: Product Manager + Sponsor*)
+- [ ] Create repo or project board skeleton (*Owner: Project Manager*)
+- [ ] Add initial artifacts to repo (docs/ or .copilot/) (*Owner: Project Manager*)
+
+**Handoff to Planning Phase**: Project Manager receives approved one-pager, stakeholder list, and initial requirements to begin detailed planning.
 
 ## Decision Gate
 Move to planning when:
